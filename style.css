@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitcount+Grid+Single:wght@100..900&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Jersey+15&family=Karla:ital,wght@0,200..800;1,200..800&family=Libertinus+Keyboard&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Gemstones&family=Tangerine:wght@400;700&family=Tiny5&family=UnifrakturMaguntia&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1D0800;
+    font-family: 'Abril Fatface';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 15px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+#unic{
+   background: linear-gradient(90deg, #FF6432 , #FFA228);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header a {
+    margin-left: 60px;
+}
+
+.a-pizza{
+    color: #A3A3A3;
+}
+
+.a-pizza1{
+    color: #ffffff;
+    background:linear-gradient(#FF6432, #FFA228);
+    width: 163px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.fastest{
+    font-size: 70px;
+    color:white;
+}
+
+.div-1{
+    margin-left: 129px;
+    margin-top: 50px;
+}
+
+.p1{
+    font-size: 20px;
+    color: #A3A3A3;
+    line-height: 193%;
+    margin-top: -40px;
+}
+
+.p2{
+    font-size: 20px;
+    color: #A3A3A3;
+    margin-top: -20px;
+}
+
+.img1{
+    margin-left: -30px;
+    margin-top: -35px;
+    
+}
+
+.order{
+    color: #ffffff;
+    background:linear-gradient(#FF6432, #FFA228);
+    width: 343px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    
+    font-size: 20px;
+    display: inline-block;
+    margin-top: -16px;
+    padding-top: 8px;
+}
+
+
+.main-div{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.div2{
+    margin-top: 50px;
+}
+
+
+.img-fries{
+    position: absolute;
+    top: 650px;
+    left: 940px;
+}
+
+.m1-img{
+    margin-top: 40px;
+}
+
+.img-pizza{
+    position: absolute;
+    right: 40px;
+    top: -1px;
+}
+
+.main-h1{
+    font-size: 69px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.div-3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div-3 a{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.div-3 a:first-child{
+    color: white;
+    background:linear-gradient(#FF6432, #FFA228);
+    width: 215px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.an-a{
+    width: 215px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: #210A01;
+    box-shadow: 3px 3px 50px #391203;
+}
+
+.main-div1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.div-4{
+    width: 297px;
+    background-color: #210A01;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.italian-p{
+    font-size: 25px;
+    color: white;
+    margin-top: -20px
+}
+
+.recepi{
+    color: #A3A3A3;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.circle{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+}
+
+.circle1{
+    border-radius: 100%;
+    background: linear-gradient(#FF6432, #FFA228);
+    padding: 15px;
+    color: white;
+}
+
+.div-5{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    color: white;
+    font-size: 25px;
+    margin-top: -7px;
+}
+
+.now{
+    border-radius: 80px;
+    background: linear-gradient(#FF6432, #FFA228);
+    padding: 15px;
+    color: white;
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.div-6{
+   
+    margin: 0 auto;
+    width: 1100px;
+    height: 243px;
+    background-image: url('./photos/Rectangle\ 13.png');
+    margin-top: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular{
+    font-size: 43px;
+    color: white;
+}
+
+.div-7{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.events1{
+    color: #A3A3A3;
+    font-size: 69px;
+    margin-right: 210px;
+    
+}
+
+.there{
+    color: #A3A3A3;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-right: 210px;
+    line-height: 183%;
+    text-align: right;
+}
+
+.div-8{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.alex{
+    height: 250px;
+    width: 600px;
+    margin-left: 700px;
+    border-radius: 50px;
+}
+
+.rec9{
+    height: 250px;
+    width: 600px;
+}
+
+.buritto{
+    position: relative;
+    left: -210px;
+    top: -50px;
+}
+
+.group22{
+    width: 400px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: -50px;
+}
+
+.rec11{
+    margin-top: -50px;
+    width: 400px;
+    height: 250px;
+}
+
+.rec12{
+    width: 400px;
+    height: 250px;
+    margin-top: -50px;
+}
+
+.coffee{
+    position: relative;
+    right:1370px;
+}
+
+.div-9{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 1250px;
+}
+
+.div-10{
+    margin-left: 490px;
+}
+
+.about1{
+    font-size: 69px;
+    color: #A3A3A3;
+}
+
+.in{
+    font-size: 19px;
+    color: #A3A3A3;
+    line-height: 183%;
+    margin-top: -60px;
+}
+
+.group60{
+    margin-top: -40px;
+}
+
+.the{
+     font-size: 19px;
+    color: #A3A3A3;
+    line-height: 183%;
+}
+
+.allpizza{
+    width: 587px;
+    
+    margin-top: -120px;
+}
+
+.friess{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 500px;
+    right: 80px;
+}
+
+.friesss{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 680px;
+    left: 400px;
+}
+
+
+footer{
+    background-color: #140600;
+    margin-top: -250px;
+}
+
+.piz{
+    margin-top: 100px;
+    width: 142px;
+    height: 33px;
+    margin-left: 200px;
+}
+
+.div-11{
+    display: flex;
+    justify-content: flex-start;
+    gap:100px;
+}
+ul{
+    margin-top: 100px;
+    color: #515151;
+    list-style: none;
+    line-height: 30px;
+}
+li:first-child{
+    color: #A3A3A3;
+}
+
+.number{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.number-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group46{
+    width:105px ;
+    height: 32px;
+    margin-top: 40px;
+    margin-right: 225px;
+}
